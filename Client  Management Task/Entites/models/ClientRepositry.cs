@@ -76,7 +76,7 @@ namespace Client__Management_Task.Entites.models
                 var client = context.Clients.Find(id); // client beforeUpdate //
                 client.FirstName = clientUpdate.FirstName;
                 client.LastName = clientUpdate.LastName;
-                client.DateofBirth = client.DateofBirth
+            client.DateofBirth = client.DateofBirth;
                 client.MaritalStatus = clientUpdate.MaritalStatus;
                 client.MobileNumber = clientUpdate.MobileNumber;
                 client.Email = clientUpdate.Email;

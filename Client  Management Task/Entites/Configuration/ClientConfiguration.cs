@@ -1,4 +1,4 @@
-﻿using Client__Management_Task.Enums;
+﻿
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
